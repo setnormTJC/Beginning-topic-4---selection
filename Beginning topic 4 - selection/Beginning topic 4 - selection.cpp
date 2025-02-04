@@ -29,12 +29,10 @@ void demoSomeQuizQuestions()
 		//int return
 }
 
-int main()
+string promptForCorrectPassword()
 {
-	//demoSomeQuizQuestions(); //we will talk later about defining our own functions and calling them ...
-
 	cout << "Enter your password: \n";
-	string correct_password; 
+	string correct_password;
 
 	//std::cin >> correct_password; //ONE way of reading in a password that CONTAINS NO SPACES
 	getline(std::cin, correct_password);
@@ -44,29 +42,35 @@ int main()
 
 	//******
 	Sleep(1'000); //std::this_thread::sleep_for()
-	system("cls"); 
+	system("cls");
 
 	cout << "...password saved - continuing program execution\n";
+
+
+	return correct_password;
+}
+
+int main()
+{
+	//demoSomeQuizQuestions(); //we will talk later about defining our own functions and calling them ...
+
+	string correct_password = promptForCorrectPassword(); 
 
 	string guessedPassword; 
 	cout << "Welcome back - enter your password to log back in:\n";
 	getline(std::cin, guessedPassword);
 
+	int numberOfAttempts = 4; 
 
-	if (guessedPassword == correct_password)
+	if (guessedPassword == correct_password && numberOfAttempts < 3)
 	{
 		cout << "Log in was SUCCESSFUL - hooray!\n";
 	}
 
-	//if (guessedPassword != correct_password) //! does not indicate excitement
-	//{
-	//	cout << "You entered the WRONG password :( \n";
-	//	//numAttempts++; //we'll handle locking out of account later ...
-	//}
-
 	else //means that guessPassword != correct_password
 	{
-		cout << "You entered the WRONG password :( \n";
+		cout << "EITHER You entered the WRONG password :( \n"; 
+		cout << "OR you exceeded the max number of attempts and are LOCKED OUT of your account\n";
 	}
 
 
