@@ -4,7 +4,8 @@
 #include <iostream>
 
 using std::cout;
-
+using std::string; 
+using std::cin; 
 
 void demoBooleanDataType()
 {
@@ -41,7 +42,19 @@ void demoTheConditionalOperator()
 int main()
 {
 	//demoBooleanDataType(); 
-	demoTheConditionalOperator(); 
+	//demoTheConditionalOperator(); 
+
+
+	string username; 
+	cout << "Enter your name: \n";// << endl;
+
+
+	cin.ignore(6);
+
+	cin >> username;
+
+	cout << username << "\n";
+
 
 }
 
