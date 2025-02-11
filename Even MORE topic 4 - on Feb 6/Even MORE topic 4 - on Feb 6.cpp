@@ -96,15 +96,13 @@ void demoSwitch()
 		cout << "Unsupported color or option chosen\n";
 		break; 
 
-
-		
 	}
 }
 
 int main()
 {
-	demoSwitch(); 
+	//demoSwitch(); 
 
-	//demoElseIf(); //function call
+	demoElseIf(); //function call
 }
 

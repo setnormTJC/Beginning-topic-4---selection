@@ -11,6 +11,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Even MORE topic 4 - on Feb 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Some code review on Feb 6", "Some code review on Feb 6\Some code review on Feb 6.vcxproj", "{CBB0B05A-875B-4276-914F-A64427E9165C}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DemoingEnumsAndSwitch", "DemoingEnumsAndSwitch\DemoingEnumsAndSwitch.vcxproj", "{D88C7820-F532-477E-96E0-0B3E16E4C27F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "One student submission of the discount determination program", "One student submission of the discount determination program\One student submission of the discount determination program.vcxproj", "{9C4655D4-1B4F-4C2E-A58F-0C66A9F1B98F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -51,6 +55,22 @@ Global
 		{CBB0B05A-875B-4276-914F-A64427E9165C}.Release|x64.Build.0 = Release|x64
 		{CBB0B05A-875B-4276-914F-A64427E9165C}.Release|x86.ActiveCfg = Release|Win32
 		{CBB0B05A-875B-4276-914F-A64427E9165C}.Release|x86.Build.0 = Release|Win32
+		{D88C7820-F532-477E-96E0-0B3E16E4C27F}.Debug|x64.ActiveCfg = Debug|x64
+		{D88C7820-F532-477E-96E0-0B3E16E4C27F}.Debug|x64.Build.0 = Debug|x64
+		{D88C7820-F532-477E-96E0-0B3E16E4C27F}.Debug|x86.ActiveCfg = Debug|Win32
+		{D88C7820-F532-477E-96E0-0B3E16E4C27F}.Debug|x86.Build.0 = Debug|Win32
+		{D88C7820-F532-477E-96E0-0B3E16E4C27F}.Release|x64.ActiveCfg = Release|x64
+		{D88C7820-F532-477E-96E0-0B3E16E4C27F}.Release|x64.Build.0 = Release|x64
+		{D88C7820-F532-477E-96E0-0B3E16E4C27F}.Release|x86.ActiveCfg = Release|Win32
+		{D88C7820-F532-477E-96E0-0B3E16E4C27F}.Release|x86.Build.0 = Release|Win32
+		{9C4655D4-1B4F-4C2E-A58F-0C66A9F1B98F}.Debug|x64.ActiveCfg = Debug|x64
+		{9C4655D4-1B4F-4C2E-A58F-0C66A9F1B98F}.Debug|x64.Build.0 = Debug|x64
+		{9C4655D4-1B4F-4C2E-A58F-0C66A9F1B98F}.Debug|x86.ActiveCfg = Debug|Win32
+		{9C4655D4-1B4F-4C2E-A58F-0C66A9F1B98F}.Debug|x86.Build.0 = Debug|Win32
+		{9C4655D4-1B4F-4C2E-A58F-0C66A9F1B98F}.Release|x64.ActiveCfg = Release|x64
+		{9C4655D4-1B4F-4C2E-A58F-0C66A9F1B98F}.Release|x64.Build.0 = Release|x64
+		{9C4655D4-1B4F-4C2E-A58F-0C66A9F1B98F}.Release|x86.ActiveCfg = Release|Win32
+		{9C4655D4-1B4F-4C2E-A58F-0C66A9F1B98F}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
