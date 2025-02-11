@@ -117,9 +117,15 @@ void demoSwitchOnEnumColor(Color chosenColor)
 
 int main() {
 
-    demoSwitchOnInts();
+    //cout << "\a\tasdfasdf\nNew line";
+    //cout << "\033[35m" << "Is this MAGENTA?\n";
+    //cout << "\033[37m" << "Is this WHITE?\n";
 
+    //demoSwitchOnInts();
 
+    demoSwitchOnEnumColor(Color::Blue);
+
+    demoSwitchOnEnumColor(Color::Red);
 
     //demoSwitchOnCharColor(); 
 
